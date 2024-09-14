@@ -1,6 +1,6 @@
 function getPlayerChoise() {
     let playerChoise = prompt("Choose:\n 0- Rock. \n 1- Paper. \n 2- Scissors.");
-    playerChoise = +playerChoise;
+    playerChoise = +playerChoise; // Caracter to integer.
     while ((playerChoise != 0) && (playerChoise != 1) && (playerChoise != 2)) {
         console.log("Choose a valid choise!");
         playerChoise = prompt("Choose:\n 0- Rock. \n 1- Paper. \n 2- Scissors.");
